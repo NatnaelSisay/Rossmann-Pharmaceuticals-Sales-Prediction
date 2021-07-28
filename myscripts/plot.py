@@ -20,8 +20,9 @@ def scatter(df, x, y, title=''):
   plt.show()
   return
 
-def heatmap(df,title=''):
+def heatmap(df,title='', annot=True):
   setup()
+  plt.title(title)
   correlation = df.corr()
-  sns.heatmap(correlation,square = True, linewidths = .5, cmap = "BuPu")
+  sns.heatmap(correlation,square = True, linewidths = .5, cmap = "BuPu", annot=annot)
   return

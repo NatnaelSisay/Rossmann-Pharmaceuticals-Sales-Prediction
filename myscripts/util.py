@@ -1,4 +1,6 @@
 import numpy as np
+
+
 def get_null_percentage(df):
   total_size = np.prod(df.shape)
 
@@ -8,22 +10,25 @@ def get_null_percentage(df):
   
   return null_percentage
 
+
 def get_holiday(value):
-  holidays = {'a': 'public holiday', 'b': "Easter holiday", 'c':'Christmas', 0:"None"}
+  holidays = {'a': 'Public holiday', 'b': "Easter holiday", 'c':'Christmas', 0:"None"}
   return holidays.get(value, None)
 
+
 def get_assortment(value):
-  assort = {'a': 'basic', 'b': 'extra', 'c':'extended'}
+  assort = {'a': 'Basic', 'b': 'Extra', 'c':'Extended'}
   return assort.get(value, None)
+
 
 def add_month_year(df):
   '''
     df index should be date time
   '''
   new_df = df.copy()
-  new_df['Year'] = df.index.year
-  new_df['Month'] = df.index.month
-  new_df['Day'] = df.index.day
-  new_df['WeekOfYear'] = df.index.weekofyear
+  new_df['Year'] = df['Date'].dt.year
+  new_df['Month'] = df['Date'].dt.month
+  new_df['Day'] = df['Date'].dt.day
+  new_df['WeekOfYear'] = df['Date'].dt.weekofyear
   return new_df
 
