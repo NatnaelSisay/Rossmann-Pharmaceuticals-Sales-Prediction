@@ -1,0 +1,8 @@
+INFO - 2021-07-29 14:32:46,488 - util.py - Year, Month, Day, WeekOfYear for Dataframe
+INFO - 2021-07-29 14:33:14,799 - util.py - Year, Month, Day, WeekOfYear for Dataframe
+INFO - 2021-07-29 14:33:20,488 - NumExpr defaulting to 4 threads.
+DEBUG - 2021-07-29 15:21:43,006 - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG - 2021-07-29 15:21:43,524 - Creating converter from 7 to 5
+DEBUG - 2021-07-29 15:21:43,525 - Creating converter from 5 to 7
+DEBUG - 2021-07-29 15:21:43,525 - Creating converter from 7 to 5
+DEBUG - 2021-07-29 15:21:43,525 - Creating converter from 5 to 7
