@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/java/Documents/10Acadamy/week%20-%203/Rossmann%20Pharmaceuticals/notebooks/mlruns/0/b8345f1c4f6d43fe8544b703c609bc4a/artifacts
+end_time: 1627521575952
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: b8345f1c4f6d43fe8544b703c609bc4a
+run_uuid: b8345f1c4f6d43fe8544b703c609bc4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627521575899
+status: 3
+tags: []
+user_id: java
