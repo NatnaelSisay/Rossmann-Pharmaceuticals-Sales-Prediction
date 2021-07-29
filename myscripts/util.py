@@ -1,5 +1,7 @@
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 import numpy as np
-from logger import logger
+
+from myscripts.logger_config import logger
 
 def get_null_percentage(df):
   total_size = np.prod(df.shape)
@@ -39,3 +41,8 @@ def add_month_year(df):
   new_df['WeekOfYear'] = df['Date'].dt.weekofyear
   return new_df
 
+def eval_metrics(actual, pred):
+    rmse = np.sqrt(mean_squared_error(actual, pred))
+    mae = mean_absolute_error(actual, pred)
+    r2 = r2_score(actual, pred)
+    return rmse, mae, r2
