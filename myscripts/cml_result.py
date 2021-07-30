@@ -71,3 +71,6 @@ with open('results.txt', 'w') as result:
       result.write('\n')  
       result.write('Decision Tree Regression\n')
       result.write('Best Score: 36.79%\n')
+      result.write('\n')  
+      result.write('RandomForest Regression\n')
+      result.write('Best Score: 48.6%\n')
