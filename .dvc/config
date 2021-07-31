@@ -1,0 +1,4 @@
+[core]
+    remote = new_remote
+['remote "new_remote"']
+    url = /tmp/new_remote

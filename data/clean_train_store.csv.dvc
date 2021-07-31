@@ -1,0 +1,4 @@
+outs:
+- md5: e09244f2a36c6a37d09125d9b5c876ea
+  size: 90740700
+  path: clean_train_store.csv
