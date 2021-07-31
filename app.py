@@ -1,3 +1,4 @@
+import time
 from logging import log
 import streamlit as st
 import pandas as pd
@@ -22,3 +23,5 @@ except:
 
 if(predict_button):
   st.write(f"Store = {store_id} Prediction Begin ...")
+  time.sleep(2000)
+  st.write('Sorry, Dashboard not completed build on progress')
