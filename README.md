@@ -1,13 +1,13 @@
 # Rossmann-Pharmaceuticals
 
 ## About
-Rossmann Pharmaceuticals is a pharmaceutical chain that has 1115 stores. Rossmann Pharmaceuticals’ finance team wants to forecast sales in all their 1115 stores across several cities six weeks ahead of time. The data team identified factors such as promotions, competition, school and state holidays, seasonality, and locality as necessary for predicting the sales across the various stores. In this project, we are building an end-to-end product that delivers this prediction to analysts in the finance team.
+There are 1115 locations for the pharmacy chain Rossmann Pharmaceuticals. The finance department of Rossmann Pharmaceuticals aims to predict sales six weeks in advance for all 1115 of its stores spread throughout numerous cities. The data team determined that in order to estimate the sales across different stores, factors including promotions, competition, school and state holidays, seasonality, and geography were crucial. We are creating an end-to-end product for the finance team in this project that will offer this projection to analysts.
 
 ## Content
 The project convers 
 - EDA( EXploratory data analysis)
 - Sklearn Pipleine
-- ML model training
+- ML(Machine Learning) model training
 
 On progress
 - Deep Learning
